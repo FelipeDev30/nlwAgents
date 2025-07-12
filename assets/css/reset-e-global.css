@@ -11,3 +11,14 @@
     list-style: none;
     line-height: 160%;
 }
+
+:root {
+    --color-background: #121214;
+    --color-text: #fff;
+    --color-primary: #9572FC;
+    --color-secondary: #43E7AD;
+    --color-tertiary: #E2D45C;
+
+    --bg-gradient: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 50%, var(--color-tertiary) 100%);
+    --bg-text:  #2A2634;
+}
