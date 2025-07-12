@@ -1,0 +1,41 @@
+/* 
+
+# Regras CSS
+- Use `class` para estilizar elementos específicos.
+- Evite IDs para estilização, prefira classes.
+- Use `!important` apenas quando necessário.
+- Mantenha a hierarquia de seletores simples.
+- Use comentários para explicar blocos de código complexos.
+- Evite duplicação de código.
+- Use unidades relativas (%, em, rem) para tamanhos.
+- Use `flexbox` ou `grid` para layouts responsivos.
+- Mantenha a consistência de espaçamento e alinhamento.
+- Use variáveis CSS para cores e fontes reutilizáveis.
+- Evite regras CSS desnecessárias ou redundantes.
+
+*/
+
+/* Body */
+
+@import url('assets/css/reset-e-global.css');
+
+body {
+    background-image: url('assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top center;
+    background-color: #121214;
+    color: #fff;
+}
+
+/* Header */
+
+header {
+    padding-top: 32px;
+    text-align: center;
+}
+
+header img {
+    margin-top: 10rem;
+    width: 15rem;
+}
